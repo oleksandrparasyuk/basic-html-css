@@ -1,0 +1,124 @@
+nav {
+  background-color: rgb(70, 141, 108);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+#dev {
+  color: white;
+  text-decoration: none;
+}
+.links {
+  flex: 1;
+  text-align: right;
+}
+.links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+.links ul li a {
+  color: white;
+  text-decoration: none;
+}
+#welcome {
+  background-color: rgb(70, 141, 108);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 150%;
+  font-family: Arial, sans-serif;
+}
+#welcome h1 {
+  margin-top: 10px;
+}
+.container1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle {
+  background: #42caa1;
+  padding: 15px;
+  margin: 5px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.circle_number {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+.con1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 528px;
+}
+.con1 p,
+h3 {
+  font-family: Arial, Helvetica;
+}
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#line {
+  height: 260px;
+  width: 15px;
+  background-color: #42caa1;
+  margin-right: 30px;
+}
+.con21 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.ty {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.ty h1 {
+  color: #42caa1;
+  margin: 0px;
+  font-size: xxx-large;
+}
+.container22 {
+  display: flex;
+  margin-bottom: 15px;
+}
+.shrift {
+  display: flex;
+  height: 117px;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  background: rgb(235, 233, 233);
+}
+.kalendar {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: #42caa1;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
